@@ -55,7 +55,7 @@ make compile
 ### Run test
 
 ```bash
-make coverage test_name=uart_demo_test
+make coverage test_name=spi_demo_test
 ```
 
 ### Dump coverage
@@ -67,19 +67,19 @@ vcover dump top.ucdb > log
 ### Run with GUI
 
 ```bash
-make vopt_gui test_name=uart_demo_test
+make vopt_gui test_name=spi_demo_test
 ```
 
 ### Run optimized simulation
 
 ```bash
-make vopt_run test_name=uart_demo_test
+make vopt_run test_name=spi_demo_test
 ```
 
 ### Run visualization
 
 ```bash
-make vis_run test_name=uart_demo_test cmd_args=10
+make vis_run test_name=spi_demo_test cmd_args=10
 ```
 
 ---
@@ -89,19 +89,19 @@ make vis_run test_name=uart_demo_test cmd_args=10
 ### Compile
 
 ```bash
-make compile_uart tool=Cadence
+make compile_spi tool=Cadence
 ```
 
 ### Run test
 
 ```bash
-make run test_name=uart_demo_test tool=Cadence
+make run test_name=spi_demo_test tool=Cadence
 ```
 
 ### Coverage
 
 ```bash
-make coverage test_name=uart_demo_test tool=Cadence
+make coverage test_name=spi_demo_test tool=Cadence
 ```
 
 ---
@@ -134,7 +134,7 @@ imc -execcmd "merge test1 test2 -out all"
 
 Example:
 
-* `uart_demo_test` – basic functionality test
+* `spi_demo_test` – basic functionality test
 
 (Add more tests in `tb/tst/` directory)
 
