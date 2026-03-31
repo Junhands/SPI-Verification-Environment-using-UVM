@@ -1,8 +1,12 @@
-//***************************************************************************************************************
-// Author: Van Le
-// vanleatwork@yahoo.com
-// Phone: VN: 0396221156, US: 5125841843
-//***************************************************************************************************************
+/*
+ * =====================================================
+ * Created on Tue Mar 31 2026
+ * University of Information Technology (UIT)
+ * Copyright (c) 2026 Cong Nguyen
+ * Email: congnguyen1024@gmail.com
+ * =====================================================
+ */
+
 //***************************************************************************************************************
 // The test package provides a test layer between the top module and the environment. More than
 // one test can be included here.

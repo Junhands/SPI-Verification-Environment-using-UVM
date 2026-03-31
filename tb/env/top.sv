@@ -1,8 +1,12 @@
-//***************************************************************************************************************
-// Author: Van Le
-// vanleatwork@yahoo.com
-// Phone: VN: 0396221156, US: 5125841843
-//***************************************************************************************************************
+/*
+ * =====================================================
+ * Created on Tue Mar 31 2026
+ * University of Information Technology (UIT)
+ * Copyright (c) 2026 Cong Nguyen
+ * Email: congnguyen1024@gmail.com
+ * =====================================================
+ */
+
 //***************************************************************************************************************
 // Top level module. It is responsible for instantiating the dut and the interface modules. It also passes the
 // interface handle using set_config_object.
